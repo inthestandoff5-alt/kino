@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: rgb(35, 34, 34);
+}
+
+header {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.container {
+  width: 1520px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.site-section {
+  width: 1520px;
+  height: 1080px;
+  background-image: url("./images/А\ 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-ul {
+  display: flex;
+  gap: 40px;
+  padding-left: 0;
+  color: white;
+  list-style-type: none;
+}
+
+.nav-li {
+  list-style-type: none;
+  text-decoration-line: none;
+  color: white;
+}
+
+.nav-btns {
+  display: flex;
+  gap: 12px;
+}
+
+.nav-search {
+  width: 55px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+.nav-btn {
+  width: 138px;
+  border-radius: 10px;
+  color: white;
+  background-color: #3657cb;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.box2-nav {
+  display: flex;
+  margin: 51px;
+}
+
+.nav-h1 {
+  color: white;
+  font-size: 35px;
+  font-weight: 900;
+}
+
+.nav2-ul2 {
+  display: flex;
+  gap: 80px;
+  color: gray;
+  list-style-type: none;
+}
+
+.nav2-li1 {
+  list-style-type: none;
+  color: white;
+  text-decoration-line: none;
+}
+
+.nav2-li2 {
+  list-style-type: none;
+  text-decoration-line: none;
+  color: gray;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 23px;
+}
+
+.card-p {
+  color: yellow;
+}
+
+.card-h1 {
+  color: white;
+}
+
+.site-btn {
+  width: 200px;
+  height: 71px;
+  border: 2px solid #ffffff;
+  color: white;
+  border-radius: 10px;
+  background-color: rgb(35, 34, 34);
+}
+
+.btn-site {
+  text-align: center;
+}
+
+.iframes {
+  display: flex;
+  margin: 54px;
+  justify-content: space-between;
+  color: white;
+}
+
+.iframe-h1 {
+  font-size: 65px;
+  font-weight: 900;
+}
+
+.iframe-sp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.iframe-sp::after {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url("./images/Arrow\ 1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.videos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-h1 {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.video-h1::after {
+  content: "";
+  width: 179px;
+  height: 17px;
+  background-image: url("./images/Поделиться.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.video-info {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.coments {
+  display: flex;
+  gap: 30px;
+}
+
+.mini-videos {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.video-card {
+  color: white;
+}
+
+.mini-cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar3 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.navbar4 {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.actor1 {
+  width: 444px;
+  height: 444px;
+  background-image: url("./images/Фото\ \(2\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
