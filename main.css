@@ -1,8 +1,59 @@
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/roboto-v49-latin-regular.woff2") format("woff2"),
+    url("./fonts/roboto-v49-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url("./fonts/roboto-v49-latin-500.woff2") format("woff2"),
+    url("./fonts/roboto-v49-latin-500.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/roboto-v49-latin-600.woff2") format("woff2"),
+    url("./fonts/roboto-v49-latin-600.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/roboto-v49-latin-700.woff2") format("woff2"),
+    url("./fonts/roboto-v49-latin-700.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url("./fonts/roboto-v49-latin-900.woff2") format("woff2"),
+    url("./fonts/roboto-v49-latin-900.woff") format("woff");
+}
+
 * {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   margin: 0 auto;
   padding: 0;
   background-color: rgb(35, 34, 34);
@@ -63,6 +114,12 @@ header {
   border-radius: 10px;
   color: white;
   background-color: #3657cb;
+  border: none;
+}
+
+.nav-btn:hover {
+  background-color: transparent;
+  border: 1px solid white;
 }
 
 .navbar2 {
@@ -123,6 +180,11 @@ header {
   color: white;
   border-radius: 10px;
   background-color: rgb(35, 34, 34);
+}
+
+.site-btn:hover {
+  background-color: white;
+  color: black;
 }
 
 .btn-site {
@@ -221,11 +283,282 @@ header {
   margin: 20px;
 }
 
+.actors {
+  display: flex;
+  gap: 23px;
+}
+
 .actor1 {
   width: 444px;
   height: 444px;
+  padding: 20px;
   background-image: url("./images/Фото\ \(2\).png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
+.actor2 {
+  width: 444px;
+  height: 444px;
+  padding: 20px;
+  background-image: url("./images/Фото\ \(3\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
+.actor1-name {
+  color: white;
+  margin: 0;
+}
+
+.actor1-eng-name {
+  color: gray;
+  margin: 0;
+}
+
+.actor1-age {
+  margin: 0;
+  color: yellow;
+}
+
+.news-card1 {
+  width: 1090px;
+  height: 765px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("./images/Фото\ \(4\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
+.news-card2 {
+  display: flex;
+  width: 270px;
+  height: 180px;
+  background-image: url("./images/image\ 4.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
+.news-card3 {
+  display: flex;
+  width: 270px;
+  height: 180px;
+  background-image: url("./images/Фото\ \(4\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
+.news-card4 {
+  display: flex;
+  width: 270px;
+  height: 180px;
+  background-image: url("./images/image\ 4\ \(1\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
+.news-card5 {
+  display: flex;
+  width: 270px;
+  height: 180px;
+  background-image: url("./images/image\ 4\ \(2\).png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+}
+
+.cards-new {
+  display: flex;
+  gap: 16px;
+}
+
+.new-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.film-news-nav {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.film-news-sp {
+  margin: 20px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.film-news-sp::after {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url("./images/Arrow\ 2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.film-news-sp::before {
+  content: "";
+  width: 25px;
+  height: 25px;
+  background-image: url("./images/Arrow\ 3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mln13 {
+  margin: 0;
+}
+
+.mln15 {
+  margin: 0;
+}
+
+.minis-card1 {
+  display: flex;
+  align-items: center;
+}
+
+.minis-card1-info {
+  padding-left: 11px;
+}
+
+.cards-mini {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.navbar33 {
+  margin: 10px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  height: 545px;
+  background-image: url("./images/Фон.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.wrapper-inp {
+  width: 425px;
+  height: 71px;
+  border-radius: 10px;
+  text-align: center;
+  border: none;
+}
+
+.wrapper-inp:hover {
+  background-color: transparent;
+}
+
+.wrapper-btn {
+  color: black;
+  background-color: yellow;
+  width: 182px;
+  height: 71px;
+  border-radius: 10px;
+  border: none;
+}
+
+.wrapper-btn:hover {
+  background-color: transparent;
+}
+
+.logoss {
+  display: flex;
+  margin: 30px;
+  justify-content: center;
+  color: gray;
+}
+
+.naav {
+  margin: 0 auto;
+}
+
+.naaav {
+  display: flex;
+}
+
+.nav2-ul3 {
+  display: flex;
+  gap: 50px;
+  text-align: center;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.last-logo {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.wr-ch {
+  margin: 20px;
 }
