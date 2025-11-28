@@ -66,13 +66,11 @@ header {
 
 .container {
   width: 1520px;
-  padding: 20px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
 .site-section {
-  width: 1520px;
-  height: 1080px;
   background-image: url("./images/А\ 1.png");
   background-position: center;
   background-repeat: no-repeat;
